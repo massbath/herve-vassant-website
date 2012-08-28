@@ -1,14 +1,12 @@
+<?php include("includes/php/galleri.php");?>
 
-<div class="row">
-	<div class="span12">
-		Quelques realisations nn
-	</div>	
-</div>	
 
-<div class="row">
-	<div class="span12">
-		<div id="timeline"></div>
-		Attente du chargement de la timeline ...
-	</div>	
-</div>	
+ <?php
+ 
+createGalleri('./modules/galleri');
+?>
+ 
 
+ 
+ <script src="/bootstrap/js/bootstrap-carousel.js"></script>
+<script src="/bootstrap/js/bootstrap-transition.js"></script>
