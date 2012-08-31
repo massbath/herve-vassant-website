@@ -16,7 +16,7 @@ function createGalleri($dir)
 							if (($fichier != ".") && ($fichier != ".."))
 							{
 								echo "<p><h1>".$fichier."</h1></p>";
-								echo ' <ul class="thumbnails">';
+								echo ' <div id="lightbox"><ul class="thumbnails">';
 								createGalleri("$dir/$fichier");
 							}
 							
@@ -24,13 +24,13 @@ function createGalleri($dir)
 					
 					if(!is_dir($dir.'/'.$fichier))
 						{
-						//echo '<li>'. $fichier . '</a></li>';
-						echo " <li class='span2'><div class='thumbnail'><img src=".$dir."/".$fichier."></div></li>";
+						echo " <li class='span3'><a href=".$dir."/".$fichier." class='thumbnail'><img src=".$dir."/".$fichier." alt=''></a></li>";
+						//echo "<li class='span3'><div class='thumbnail'><img src=".$dir."/".$fichier."></div></li>";
 						}
 					} 
 		 
 			} 
-		echo '</ul>';	
+		echo '</ul></div>';	
 		}
 }
 ?>
