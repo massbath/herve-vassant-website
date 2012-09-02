@@ -7,22 +7,7 @@ createGalleri('./modules/galleri');
 ?>
  
 
- 
- <script src="/bootstrap/js/bootstrap-carousel.js"></script>
-<script src="/bootstrap/js/bootstrap-transition.js"></script>
-<script src="includes/javascript/lightbox/js/jquery.lightbox-0.5.js"></script>
-<link rel="stylesheet" type="text/css" href="includes/javascript/lightbox/css/jquery.lightbox-0.5.css" media="screen" />
-<script>
-$(document).ready(function()
-{
-	$('#lightbox a').lightBox(
-		{
-			imageLoading: 'includes/javascript/lightbox/images/lightbox-ico-loading.gif',
-			imageBtnClose: 'includes/javascript/lightbox/images/lightbox-btn-close.gif',
-			imageBtnPrev: 'includes/javascript/lightbox/images/lightbox-btn-prev.gif',
-			imageBtnNext: 'includes/javascript/lightbox/images/lightbox-btn-next.gif',
-			fixedNavigation:true
-		});
+<script src="includes/javascript/lightbox2/js/jquery-1.7.2.min.js"></script>
+<script src="includes/javascript/lightbox2/js/lightbox.js"></script>
 
-});
-</script>
+<link href="includes/javascript/lightbox2/css/lightbox.css" rel="stylesheet" />
