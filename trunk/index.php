@@ -3,15 +3,14 @@
 <head>
 	<meta http-equiv="Content-Language" content="fr-fr" />
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<title>Hervé VASSANT</title>
-	<!--includes-->
+	<title>Hervé VASSANT</title>	
 	<!--css-->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 	 <link rel="stylesheet" href="style/jquery-ui-1.8.12.custom.css"media="screen" type="text/css" /> 
 	 <link rel="stylesheet" href="style/printItineraire.css" media="print" type="text/css" /> 
-	<!--javascript-->
-	<script type="text/javascript" src="includes/javascript/jquery.min.js"></script>
+	
 </head>
+<!-- Begin Body -->
 <body>
 	<div class="container-fluid">
 			<div class="background-container">
@@ -20,12 +19,17 @@
 			<!--Menu -->
 				<?php include("modules/menu/menu.php");?>
 			<!--Body -->
-			<div class="body">
 				<?php include("includes/pages.php");?>		
-			</div>	
 			<!--Footer -->
 				<?php include("modules/footer/footer.php");?>
 			</div>	
 	</div>
+	<!--Begin Includes-->
+	<script type="text/javascript" src="includes/javascript/jquery.min.js"></script>
+	<!--javascript-->
+	<script type="text/javascript" src="includes/javascript/jquery.min.js"></script>
+	<!--End Includes-->
 </body>
+<!-- End Body -->
+
 </html>

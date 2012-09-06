@@ -20,11 +20,11 @@ initialize = function(){
   var marker = new google.maps.Marker({
     position : latLng,
     map      : map,
-    title    : "Herve VASSANT Menuiserie Ebenisterie"
+    title    : "Menuiserie Ebenisterie Herve VASSANT"
   });
   
   var contentMarker = [
-      'Herve VASSANT Menuiserie Ebenisterie'
+      'Menuiserie Ebenisterie</br>Herve VASSANT'
   ].join('');
 
   var infoWindow = new google.maps.InfoWindow({

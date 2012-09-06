@@ -14,7 +14,7 @@
 <div class="row-fluid">
 	<div class="offset1">
 		<address>
-			<abbr title="Nom"><i class="icon-user"></i></abbr><strong> Menuiserie-Ebenisterie Hervé Vassant</strong><br>
+			<abbr title="Nom"><i class="icon-user"></i></abbr><strong> Menuiserie et Ebenisterie Hervé Vassant</strong><br>
 			  <abbr title="Adresse"><i class="icon-home"></i></abbr> 1185 rue de Courlieu<br>
 			  <abbr title="Adresse"><i class="icon-home"></i></abbr> 60510 La Rue Saint Pierre<br>
 			  <abbr title="Téléphone"><i class="icon-comment"></i></abbr> 03 44 78 10 43<br>
