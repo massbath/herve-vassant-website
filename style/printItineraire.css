@@ -1,0 +1,8 @@
+/**
+* css pour l'impression de la page itineraire
+*/
+
+.{display:none;}
+#{display:none;}
+ #map{display::block;}
+    #panel{display:block;}

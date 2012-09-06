@@ -7,7 +7,8 @@
 	<!--includes-->
 	<!--css-->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-	 <link rel="stylesheet" href="style/jquery-ui-1.8.12.custom.css" type="text/css" /> 
+	 <link rel="stylesheet" href="style/jquery-ui-1.8.12.custom.css"media="screen" type="text/css" /> 
+	 <link rel="stylesheet" href="style/printItineraire.css" media="print" type="text/css" /> 
 	<!--javascript-->
 	<script type="text/javascript" src="includes/javascript/jquery.min.js"></script>
 </head>
@@ -19,7 +20,9 @@
 			<!--Menu -->
 				<?php include("modules/menu/menu.php");?>
 			<!--Body -->
+			<div class="body">
 				<?php include("includes/pages.php");?>		
+			</div>	
 			<!--Footer -->
 				<?php include("modules/footer/footer.php");?>
 			</div>	
