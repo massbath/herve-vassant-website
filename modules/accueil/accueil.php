@@ -17,3 +17,19 @@
 		
 	</div>
 </div>	
+
+<div class="row-fluid">
+	<div class=" span2 offset3">
+		<blockquote class="pull-right" >
+			<img src='images/artisan.jpg' class='img-polaroid'>
+			<small>Artisan</small>
+		</blockquote>
+	</div>	
+	<div class=" span4">
+		<blockquote class="pull-right" >
+			<p><img src='images/artisanat.jpg' class='img-polaroid'></p>
+			<small>Membre de l'artisanat</small>
+		</blockquote>
+	</div>	
+</div>	
+		

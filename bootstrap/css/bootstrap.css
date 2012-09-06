@@ -31,13 +31,13 @@ font-family:Comic Sans MS;
 font-size:small;
 }
 
-body {
+/*body {
 background-color:#DDD;
 }
 .body{
 min-height: 500px;
 
-}
+}*/
 
 .background-container{
 border-radius: 10px;
