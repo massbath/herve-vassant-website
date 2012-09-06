@@ -2,9 +2,7 @@
 	<div class="span3">
 	 Logo
 	 </div>
-	<div class="span9">
-	
-	Bannière
-	
+	<div class="span9 lead">	
+		Menuiserie Ebenisterie Hervé Vassant	
 	</div>
 </div>	
