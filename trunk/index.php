@@ -8,6 +8,7 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 	 <link rel="stylesheet" href="style/jquery-ui-1.8.12.custom.css"media="screen" type="text/css" /> 
 	 <link rel="stylesheet" href="style/printItineraire.css" media="print" type="text/css" /> 
+	 <script type="text/javascript" src="includes/javascript/jquery.min.js"></script>
 	
 </head>
 <!-- Begin Body -->
@@ -24,11 +25,7 @@
 				<?php include("modules/footer/footer.php");?>
 			</div>	
 	</div>
-	<!--Begin Includes-->
-	<script type="text/javascript" src="includes/javascript/jquery.min.js"></script>
-	<!--javascript-->
-	<script type="text/javascript" src="includes/javascript/jquery.min.js"></script>
-	<!--End Includes-->
+	
 </body>
 <!-- End Body -->
 
