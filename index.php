@@ -8,8 +8,11 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 	 <link rel="stylesheet" href="style/jquery-ui-1.8.12.custom.css"media="screen" type="text/css" /> 
 	 <link rel="stylesheet" href="style/printItineraire.css" media="print" type="text/css" /> 
-	 <script type="text/javascript" src="includes/javascript/jquery.min.js"></script>
-	
+	<!--Begin Includes-->
+	<script type="text/javascript" src="includes/javascript/jquery.min.js"></script>
+	<!--javascript-->
+	<script type="text/javascript" src="includes/javascript/jquery.min.js"></script>
+	<!--End Includes-->
 </head>
 <!-- Begin Body -->
 <body>
