@@ -12,6 +12,7 @@
 </div>
 
 <div class="row-fluid">
+<p>Vous pouvez nous contacter soit par mail, par téléphone ou venir au sein de nos locaux situés entre Beauvais et Clermont à cette adresse:</br></p>
 	<div class="offset1">
 		<address>
 			<abbr title="Nom"><i class="icon-user"></i></abbr><strong> Menuiserie et Ebenisterie Hervé Vassant</strong><br>
@@ -20,6 +21,7 @@
 			  <abbr title="Téléphone"><i class="icon-comment"></i></abbr> 03 44 78 10 43<br>
 			  <abbr title="E-mail"><i class="icon-envelope"></i></abbr><a href="mailto:herve.vassant@gmail.com"> herve.vassant@gmail.com</a>
 		</address>
+		N° Siret 411 479 371 00014
     </div>
 </div>	
   
@@ -70,7 +72,7 @@ $(document).ready(function(){
 	var form =$("#direction");
 	var address=$("#origin");
 	var panel=$("#panel");
-	
+
 	form.submit(function(){
 		if(address.val().length<2 ){
 			$("div.control-group").addClass("error");

@@ -12,9 +12,11 @@
 			tout styles pour portes, fenêtres, meubles, escaliers..</br>
 		Mais aussi agencement, colombage, parquet, sous bassement bois, marquise, placoplâtre,
 		lucarne, transformation de meubles et menuiseries.</br>
+		Charpente traditionnelle, lucarne, terrasse bois.</br>
 		Restauration de meubles.</br>
 		Devis, étude, conseils gratuits.</p>
 		
+
 	</div>
 </div>	
 
