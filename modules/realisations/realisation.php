@@ -1,9 +1,9 @@
-<?php include("includes/php/galleri.php");?>
+<?php include("includes/php/gallery.php");?>
 
 
  <?php
  
-createGalleri('./modules/galleri');
+createGallery('./modules/gallery');
 ?>
  
 
