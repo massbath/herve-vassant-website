@@ -1,5 +1,5 @@
 <?php
-function createGalleri($dir)
+function createGallery($dir)
  {
 		
 	//	echo '<ul  class="thumbnails">';
@@ -19,7 +19,7 @@ function createGalleri($dir)
 								echo"<div class='row-fluid'><div class='span12'><div class='page-header'><h1>".buildName($fichier)."</h1></div></div></div>";
 								//echo"<div class='row-fluid'><div class='span12'><div class='page-header'><h1>".$fichier."</h1></div></div></div>";
 								echo " <div class='offset1'><ul class='thumbnails'>";
-								createGalleri("$dir/$fichier");
+								createGallery("$dir/$fichier");
 							}
 							
 						}	
